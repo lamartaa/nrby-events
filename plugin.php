@@ -30,7 +30,7 @@ function nrby_register_custom_menu_page() {
         'read',
         $menu_slug,
         '',
-        plugins_url( 'nrby-events/images/NrbyTinyLogo.png', dirname( __FILE__ )),
+        plugins_url( 'images/NrbyTinyLogo.png', __FILE__),
         6
     );
 
@@ -61,7 +61,7 @@ function nrby_render_about(){
                 <br/>
                 <br/>
                 <img src=";
-        echo plugins_url( 'nrby-events/images/EventCreatorPortalSignupPage.PNG', dirname( __FILE__ ));
+        echo plugins_url( 'images/EventCreatorPortalSignupPage.PNG', __FILE__ );
         echo" style=\"width: 70%\"/>
             </div>
 
@@ -71,7 +71,7 @@ function nrby_render_about(){
 
                 <div style=\"padding-top: 15px\">
                     <img src=";
-                    echo plugins_url( 'nrby-events/images/NrbyOnboardingPart1.PNG', dirname( __FILE__ ));
+                    echo plugins_url( 'images/NrbyOnboardingPart1.PNG', __FILE__ );
                     echo" style=\"width: 70%\"/>
                 </div>
                 <div style=\"padding-top: 15px\">
@@ -79,7 +79,7 @@ function nrby_render_about(){
                 </div>
                 <div style=\"padding-top: 15px\">
                     <img src=";
-                    echo plugins_url( 'nrby-events/images/OnboardingSuccessful.PNG', dirname( __FILE__ ));
+                    echo plugins_url( 'images/OnboardingSuccessful.PNG', __FILE__ );
                     echo" style=\"width: 70%\"/>
                 </div>
             </div>
@@ -88,7 +88,7 @@ function nrby_render_about(){
                 You can use our built in widget on any of the editor pages in order to import your event from our website.
                 <br/><br/>
                 <img src=";
-                echo plugins_url( 'nrby-events/images/WordPressWidgetEditor.PNG', dirname( __FILE__ ));
+                echo plugins_url( 'images/WordPressWidgetEditor.PNG', __FILE__ );
                 echo" style=\"width: 70%\"/>
             </div>
 
@@ -102,7 +102,7 @@ function nrby_render_about(){
                 
                 <div style=\"padding-top: 15px\">
                     <img src=";
-                    echo plugins_url( 'nrby-events/images/WordPressNrbyLogin.PNG', dirname( __FILE__ ));
+                    echo plugins_url( 'images/WordPressNrbyLogin.PNG', __FILE__ );
                     echo" style=\"width: 70%\"/>
                 </div>
             </div>

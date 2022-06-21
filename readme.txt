@@ -4,7 +4,7 @@ Contributors: lamartaa
 Tags: events, event, ticketing, tickets, nrby, nrby.io
 Requires at least: 4.7
 Tested up to: 6.0
-Stable tag: 1.0
+Stable tag: 1.0.0
 Requires PHP: 7.0
 License: GPLv2
 
