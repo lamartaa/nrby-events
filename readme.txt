@@ -74,7 +74,7 @@ No upgrade notice at this time
 
 == Changelog ==
 
-= 1.0 =
+= 1.0.0 =
 
 * First official release
 
