@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 require_once plugin_dir_path( __FILE__ ) . 'src/init.php';
 
 function nrby_register_custom_menu_page() {
-    $menu_slug = 'nrby-events/nrby-portal-about.php';
+    $menu_slug = plugins_url( 'nrby-portal-about.php', __FILE__);
 
     add_menu_page(
         'Nrby Events',
@@ -112,7 +112,7 @@ function nrby_render_about(){
                 (circled in red). 
                 <br/><br/>
                 <img src=";
-                echo plugins_url( 'nrby-events/images/SelectEventToImportOver.PNG', dirname( __FILE__ ));
+                echo plugins_url( 'images/SelectEventToImportOver.PNG',  __FILE__);
                 echo" style=\"width: 70%\"/>
             </div>
             
@@ -121,7 +121,7 @@ function nrby_render_about(){
                 \"Hide Events Table\" button.
                 <br/><br/>
                 <img src=";
-                echo plugins_url( 'nrby-events/images/NrbyWidgetPopup.PNG', dirname( __FILE__ ));
+                echo plugins_url( 'images/NrbyWidgetPopup.PNG',  __FILE__ );
                 echo" style=\"width: 70%\"/>
             </div>
 
@@ -130,7 +130,7 @@ function nrby_render_about(){
                 <strong>Note: The table and Show/Hide Event Table button will not display in your final website. That is only for the editor screen.</strong>
                 <br/><br/>
                 <img src=";
-                echo plugins_url( 'nrby-events/images/ImportedEventsView.PNG', dirname( __FILE__ ));
+                echo plugins_url( 'images/ImportedEventsView.PNG', __FILE__ );
                 echo" style=\"width: 70%\"/>
             </div>
 
@@ -138,7 +138,7 @@ function nrby_render_about(){
                 Now that your event(s) widget is saved to your page. If you direct yourself to the live version of your page you will see that the widget is visible to the public!
                 <br/><br/>
                 <img src=";
-                echo plugins_url( 'nrby-events/images/EventWidgetFinalFrontView.PNG', dirname( __FILE__ ));
+                echo plugins_url( 'images/EventWidgetFinalFrontView.PNG',  __FILE__);
                 echo" style=\"width: 70%\"/>
             </div>
 
